@@ -1,0 +1,10 @@
+#grid {
+    display: grid;
+    grid-template-rows: repeat(5, 50px);
+    grid-template-columns: repeat(5, 50px);
+    border: 2px solid yellow;
+}
+#grid div {
+    border: 2px solid red;
+    
+}
